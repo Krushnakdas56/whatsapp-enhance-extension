@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex flex-col items-center justify-center h-screen">
+    <img src="https://placehold.co/300" alt="WhatsApp Logo" class="mb-4">
+    <p class="text-lg font-bold mb-2">Filter Chats:</p>
+    <select class="p-2 rounded-lg mb-4">
+      <option>All</option>
+      <option>Unread</option>
+      <option>Awaiting Reply</option>
+      <option>Needs Reply</option>
+    </select>
+
+    <p class="text-lg font-bold mb-2">Custom Filters:</p>
+    <select class="p-2 rounded-lg mb-4">
+      <option>Lead</option>
+      <option>Friends</option>
+      <option>Business</option>
+    </select>
+
+    <button class="bg-blue-500 text-white p-2 rounded-lg mb-4">Add Contact</button>
+
+    <textarea placeholder="Add notes for the contact..." class="p-2 rounded-lg w-full h-24 mb-4"></textarea>
+
+    <button class="bg-green-500 text-white p-2 rounded-lg">Save Contact Details</button>
+</div>
+  </body>
+</html>
